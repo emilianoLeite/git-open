@@ -1,21 +1,22 @@
 {
   "name": "git-open",
-  "version": "1.3.0",
-  "description": "Type `git open` to open the GitHub/GitLab/Bitbucket homepage for a repository.",
-  "author": "Paul Irish (http://paulirish.com/)",
+  "version": "1.4.0",
+  "description": "Fork from paulirish/git-open",
+  "author": "Emiliano Leite",
   "license": "MIT",
-  "homepage": "https://github.com/paulirish/git-open",
+  "homepage": "https://github.com/emilianoLeite/git-open",
   "bugs": {
-    "url": "https://github.com/paulirish/git-open/issues"
+    "url": "https://github.com/emilianoLeite/git-open/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulirish/git-open.git"
+    "url": "https://github.com/emilianoLeite/git-open.git"
   },
   "contributors": [
     "Paul Irish (http://paulirish.com/)",
     "Jason McCreary <jason@pureconcepts.net> (http://jason.pureconcepts.net/)",
-    "David O'Trakoun <me@davidosomething.com> (https://davidosomething.com/)"
+    "David O'Trakoun <me@davidosomething.com> (https://davidosomething.com/)",
+    "Emiliano Leite <leiteemiliano@gmail.com>"
   ],
   "keywords": [
     "git",
