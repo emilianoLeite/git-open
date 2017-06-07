@@ -28,6 +28,12 @@ $ git open upstream master
 $ git open issue
 # If branches use naming convention of issues/#123,
 # opens https://github.com/REMOTE_UPSTREAM_USER/CURRENT_REPO/issues/123
+
+$ git open mrs
+# opens http://CUSTOM_GITLAB_DOMAIN/CURRENT_REPO/merge_requests
+
+$ git open new_mr
+# opens http://CUSTOM_GITLAB_DOMAIN/CURRENT_REPO/merge_requests/new?merge_request%5Bsource_branch%5D=CURRENT_BRANCH
 ```
 
 ### Installation
@@ -69,7 +75,7 @@ for testing before adding it to your `.zshrc`.
 ##### [Oh-My-Zsh](http://ohmyz.sh/)
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
-1. `git clone git@github.com:paulirish/git-open.git`
+1. `git clone git@github.com:emilianoLeite/git-open.git`
 1. Add `git-open` to your plugin list - edit `~/.zshrc` and change
    `plugins=(...)` to `plugins=(... git-open)`
 
@@ -159,4 +165,3 @@ Copyright Jason McCreary & Paul Irish. Licensed under MIT.
   Re-publish to NPM.
 - **2016-07-11** - Changelog started (readme formatting and installation
   instructions updated)
-
